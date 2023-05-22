@@ -1,0 +1,9 @@
+
+<!--<app-desk id="card1" (match)="doMatch($event)" *ngFor="let i of array "></app-desk>-->
+
+<mat-icon *ngIf="like == true" id="like" style="z-index: 2">favorite</mat-icon>
+<mat-icon *ngIf="dislike == true" id="dislike" style="z-index: 2">close</mat-icon>
+<app-desk  id="card1" (like)="doLike($event)" (dislike)="doDislike($event)" (match)="doMatch($event)" style="z-index: 0"></app-desk>
+<app-desk id="card2" (like)="doLike($event)" (dislike)="doDislike($event)" (match)="doMatch($event)" style="z-index: 1"></app-desk>
+
+

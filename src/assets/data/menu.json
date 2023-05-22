@@ -1,0 +1,4 @@
+[
+    {"icon": "search","name":"Hunt","redirectTo":"/desk"},
+    {"icon": "settings-outline","name":"Configuration","redirectTo":"/configuration"}
+]
